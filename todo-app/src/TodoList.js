@@ -8,7 +8,7 @@ export class TodoList extends React.Component {
     }
 
     render() {
-        const todoList = this.props.todoList;
+        const todoList = this.props.items;
         return (
             <ul>
                 {todoList.map((todo) =>
